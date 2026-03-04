@@ -1,0 +1,49 @@
+{
+  "artifacts": {
+    "apriori_num_rules": 30,
+    "apriori_num_stable_rules": 24,
+    "apriori_mean_lift": 2.341080823516429,
+    "model_comparison": [
+      {
+        "Model": "Logistic Regression",
+        "Accuracy": 0.9,
+        "Precision": 0.8571,
+        "Recall": 0.96,
+        "F1": 0.9057,
+        "ROC_AUC": 0.9792
+      },
+      {
+        "Model": "MLP Fallback",
+        "Accuracy": 0.74,
+        "Precision": 0.7308,
+        "Recall": 0.76,
+        "F1": 0.7451,
+        "ROC_AUC": 0.8512
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.9,
+      "Precision": 0.8571,
+      "Recall": 0.96,
+      "F1": 0.9057,
+      "ROC_AUC": 0.9792
+    },
+    {
+      "Model": "MLP Fallback",
+      "Accuracy": 0.74,
+      "Precision": 0.7308,
+      "Recall": 0.76,
+      "F1": 0.7451,
+      "ROC_AUC": 0.8512
+    }
+  ],
+  "num_rules": 30,
+  "num_stable_rules": 24,
+  "mean_support": 0.10372549019607845,
+  "mean_confidence_train": 0.746321120760187,
+  "mean_confidence_test": 0.7223754639298257,
+  "mean_lift": 2.341080823516429
+}
